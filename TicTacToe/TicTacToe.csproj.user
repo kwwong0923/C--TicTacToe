@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Dialogs\DeterminePlayerFirstWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\DrawWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\GiveUpConfirmedWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\GiveUpWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\RestartGameWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\RestartRoundWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\WinningWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Dialogs\DeterminePlayerFirstWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\DrawWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\GiveUpConfirmedWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\GiveUpWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\RestartGameWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\RestartRoundWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\WinningWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\GameField.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\PromptField.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
