@@ -11,8 +11,13 @@ namespace TicTacToe.Models
     {
         public char[,] PlayField { get; set; }
         public int Steps { get; set; }
+
         readonly MainWindow _mainWindow;
 
+        /// <summary>
+        /// Constructor of Game class, it gets the MainWindow, initializes the Steps and PlayField Array
+        /// </summary>
+        /// <param name="mainWindow"> From the Main Window, Game can accesses the data from MainWondow Object</param>
         public Game(MainWindow mainWindow)
         {
             this._mainWindow = mainWindow;
@@ -29,6 +34,10 @@ namespace TicTacToe.Models
             };
         }
 
+        /// <summary>
+        /// To Check if winner appears
+        /// </summary>
+        /// <returns>Winner appears = true</returns>
         public bool Checker()
         {
             for (int i = 0; i < 3; i++)
@@ -49,6 +58,10 @@ namespace TicTacToe.Models
             return false;
         }
 
+        /// <summary>
+        /// To record each step in back-end part
+        /// </summary>
+        /// <param name="input"> the button user clicked</param>
         public void EnterXorO(Button input)
         {
             char playerSign = ' ';

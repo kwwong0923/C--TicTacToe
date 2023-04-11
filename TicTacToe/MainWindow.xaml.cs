@@ -167,8 +167,6 @@ namespace TicTacToe
         {
             IsGaming = true;
             DetermineWhichPlayerFirst();
-            Startbtn.Visibility = Visibility.Collapsed;
-            Startbtn.IsEnabled = false;
             // manually call the top message method for beginning
             DetermineTopMessage();
             // clear up the previous game display
@@ -303,8 +301,6 @@ namespace TicTacToe
             {
                 buttons[i].IsEnabled = false;
             }
-            Startbtn.Visibility = Visibility.Visible;
-            Startbtn.IsEnabled = true;
         }
 
         /// <summary>
@@ -317,11 +313,15 @@ namespace TicTacToe
             {
                 RestartRoundbtn.IsEnabled = true;
                 GiveUpbtn.IsEnabled = true;
+                Startbtn.IsEnabled = false;
+                Startbtn.Visibility = Visibility.Collapsed;
             }
             else
             {
                 RestartRoundbtn.IsEnabled = false;
                 GiveUpbtn.IsEnabled = false;
+                Startbtn.IsEnabled = true;
+                Startbtn.Visibility = Visibility.Visible;
             }
         }
 

@@ -7,4 +7,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\TTT-logos.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\TTT-logos.jpeg" />
+  </ItemGroup>
+
 </Project>

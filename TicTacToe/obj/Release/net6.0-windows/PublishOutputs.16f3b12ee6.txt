@@ -1,0 +1,5 @@
+C:\Users\kwwon\Desktop\Programming\CS\Projects\TicTacToe\TicTacToe\bin\Release\net6.0-windows\app.publish\TicTacToe.exe
+C:\Users\kwwon\Desktop\Programming\CS\Projects\TicTacToe\TicTacToe\bin\Release\net6.0-windows\app.publish\TicTacToe.dll
+C:\Users\kwwon\Desktop\Programming\CS\Projects\TicTacToe\TicTacToe\bin\Release\net6.0-windows\app.publish\TicTacToe.deps.json
+C:\Users\kwwon\Desktop\Programming\CS\Projects\TicTacToe\TicTacToe\bin\Release\net6.0-windows\app.publish\TicTacToe.runtimeconfig.json
+C:\Users\kwwon\Desktop\Programming\CS\Projects\TicTacToe\TicTacToe\bin\Release\net6.0-windows\app.publish\TicTacToe.pdb

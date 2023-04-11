@@ -24,9 +24,9 @@ namespace TicTacToe.Dialogs
         {
             Owner = parentWindow;
             if (player1Round)
-                GiveUpMessage = "Player1(X) gave up this round";
+                GiveUpMessage = "Player1(X) gives up this round";
             else
-                GiveUpMessage = "Player2(O) gave up this round";
+                GiveUpMessage = "Player2(O) gives up this round";
             DataContext = this;
             InitializeComponent();
         }
