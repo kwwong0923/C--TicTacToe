@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows;
@@ -9,7 +8,6 @@ using TicTacToe.Models;
 
 namespace TicTacToe
 {
-
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
         // Properties with Data Binding
@@ -186,8 +184,6 @@ namespace TicTacToe
                 Player1Score = 0;
                 Player2Score = 0;
                 RestartTheGame();
-                //GetIntoNewRound();                
-                //DetermineWhichPlayerFirst();
             }
         }
 
@@ -324,6 +320,5 @@ namespace TicTacToe
                 Startbtn.Visibility = Visibility.Visible;
             }
         }
-
     }
 }
